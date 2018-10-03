@@ -1,0 +1,48 @@
+/*Selectores:
+	etiquetas
+		atributos: valor;
+	identificadores
+		atributos: valor;
+	clases
+		atributos: valor;
+	pseudoelementos*/
+
+	body{
+		background: #555555;
+		color:tomato;
+		max-width: 1024px;
+		margin: 0px auto;
+
+	}
+
+	header{
+	background: blue;
+	border-radius: 5px;
+	color:white;
+	padding-top: 5px;
+	/*padding: 20px 0px 0px 0px;*/
+	text-align: center;
+
+	}
+
+	header img{
+		width:150px;
+
+	}
+
+	header nav ul li{
+		background: orange;
+		border-radius: 5px;
+		box-shadow: 5px 5px black;
+		color: black;
+		display: inline-block;
+		margin-right: 10px;
+		padding: 10px;
+		width: 118px;
+	}
+
+	header nav ul li:hover{
+		background: black;
+		box-shadow: 5px 5px orange;
+		color:orange;
+	}
