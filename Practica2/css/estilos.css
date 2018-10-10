@@ -71,15 +71,48 @@ header nav ul li{
 	content:"~ ";
 
 }
+#secc03art04{
+	padding-right: 60px;
+}
 
 #segundaseccion article{
 	padding-right: 130px;
 	text-align: right;
 }
 
+#terceraseccion article{
+	display:inline-block;
+	padding: 8px;
+	vertical-align: top;
+	width: 23%;
+}
+
+#terceraseccion article img{
+	/*Alineacion vertical del texto que lo rodea*/
+	vertical-align: middle;
+
+}
+
+#terceraseccion article input[type="email"]{
+	border-radius: 5px;
+}
+
+#terceraseccion article input[type="button"]{
+	background: #8BC500;
+	border-radius: 5px;
+	color: white;
+}
+
+.colorazul{
+	color:#4267B3;
+}
+
 .colorrosa{
 	color: #FF0099;
 
+}
+.colorverde{
+	color:#8BC500;
 }
 
 .letragrande{
