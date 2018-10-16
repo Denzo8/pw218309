@@ -1,0 +1,13 @@
+		/*Fuente descargada*/
+		@font-face{
+			font-family: Nunito;
+			src:url("Nunito/Nunito.ttf");
+		}
+	/*uso de una fuente por referencia*/
+		#txtFuente{
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		#txtOtraFuente{
+			font-family: 'Nunito', sans-serif;
+		}
