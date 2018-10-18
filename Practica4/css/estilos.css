@@ -1,5 +1,55 @@
-video{
-	border: 1px solid red;
-	border-radius: 5px;
-	width: 300px;
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1078px;
+	min-height: 1078px;
 }
+
+header nav{
+	border: 1px solid blue; 
+	margin-right: px;
+}
+
+header nav ul li{
+	color: black;
+	display: inline-block;
+	margin-right: 15px;
+	padding-bottom: 2px;
+
+}
+
+#headart01{
+	/*border: 1px solid blue; */
+	position: relative;
+	margin-left:900px;
+	top:20px;
+
+	/*margin-left: 100px;*/
+	/*margin-top: 25px;*/
+}
+.nito{
+	font-weight: bold; /*negritas*/
+}
+
+/*IMAGENES*/
+#bike{
+	/*width: 200px;*/
+	
+}
+#buy{
+	position: relative;
+	left: 150px;
+	top: 50px;
+	width:45px
+}
+#go_to_shop{
+	position: relative;
+	width: 130px;
+	left: 320px;
+}
+#tamart01{
+	width:30px;
+}
+
+
+/*  */
