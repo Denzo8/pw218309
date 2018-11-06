@@ -1,5 +1,6 @@
 		window.onload=function(){
 
+		var operador="";
 		var colorAmarillo=function(){
 			this.style.background="yellow";  
 		}
@@ -28,6 +29,24 @@
 					
 		}
 
+		var operadores= function(){
+			operador=this.value;
+
+		}
+		var resultadoIgual = function(){
+			oper1=document.getElementById('operando1').value;
+			oper2=document.getElementById('operando2').value;
+			document.getElementById('resultado').value=eval(oper1+operador+oper2);
+
+		}
+
+		var reinicio= function(){
+			document.getElementById('operando1').value="0"
+			document.getElementById('operando2').value="0"
+			document.getElementById('resultado').value="0"
+			operador="";
+
+		}
 
 		var uno=document.getElementById("uno");
 		uno.addEventListener("click",numeros);
@@ -60,24 +79,34 @@
 		cero.addEventListener("click",numeros);
 
 		var suma=document.getElementById("suma");
-		suma.addEventListener("click",numeros);
+		suma.addEventListener("click",operadores);
 
 		var resta=document.getElementById("resta");
-		resta.addEventListener("click",numeros);
+		resta.addEventListener("click",operadores);
 
 		var mult=document.getElementById("mult");
-		mult.addEventListener("click",numeros);
+		mult.addEventListener("click",operadores);
 
 		var division=document.getElementById("division");
-		division.addEventListener("click",numeros);
+		division.addEventListener("click",operadores);
 
-		var igual =document.getElementById(" igual ");
-		 igual.addEventListener("click",numeros);
+		var igual =document.getElementById("igual");
+		igual.addEventListener("click",resultadoIgual);
 
+		var reiniciar =document.getElementById("reiniciar");
+		reiniciar.addEventListener("click",reinicio);
 
 		var operando1= document.getElementById('operando1');
 		operando1.addEventListener('focus',colorAmarillo);
 		operando1.addEventListener('focusout',colorBlanco);
+
+		var operando2= document.getElementById('operando2');
+		operando2.addEventListener('focus',colorAmarillo);
+		operando2.addEventListener('focusout',colorBlanco);
+
+		var resultado= document.getElementById('resultado');
+		resultado.addEventListener('focus',colorAmarillo);
+		resultado.addEventListener('focusout',colorBlanco);
 
 
 }	
