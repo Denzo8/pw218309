@@ -1,0 +1,27 @@
+{
+  "name": "npmproyecto",
+  "version": "0.0.0",
+  "description": "Aprender a instalar paquetes de node y proyectos",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "asar": "^0.14.5",
+    "electron": "^3.0.8",
+    "electron-packager": "^12.2.0",
+    "electron-requiere": "^0.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "empaqueta": "electron-packager . Calculadora --overwrite --asar"
+  },
+  "keywords": [
+    "Inicio",
+    "node",
+    "npm",
+    "pw",
+    "rc"
+  ],
+  "author": "Josue Martinez",
+  "license": "MIT"
+}
