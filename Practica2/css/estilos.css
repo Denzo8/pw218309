@@ -54,6 +54,7 @@ header nav ul li{
 #secc01art01{
 	margin-left: 30px; 
 	width: 61%;
+	border: blue;
 }
 
 #secc01art02{
@@ -114,7 +115,9 @@ header nav ul li{
 .colorverde{
 	color:#8BC500;
 }
-
+.letrachica{
+	font-size: 1em;
+}
 .letragrande{
 	font-size: 3.5em; /*3,5x16*/
 
