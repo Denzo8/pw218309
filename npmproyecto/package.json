@@ -1,6 +1,6 @@
 {
   "name": "npmproyecto",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Aprender a instalar paquetes de node y proyectos",
   "main": "main.js",
   "dependencies": {},
