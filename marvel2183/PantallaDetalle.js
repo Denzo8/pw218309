@@ -15,7 +15,7 @@ var buscaDetalleComics = function(){
 				</li>
 			`
 		}
-		resultado+="</ol>"
+		resultado+="</ol>";
 		document.getElementById('comics').innerHTML = resultado
 	})
 }
